@@ -1,5 +1,5 @@
 {
-  "name": "@vaibhavbhatt2110/to--json",
+  "name": "converto--json",
   "version": "1.0.0",
   "description": "This converts the XML and CSV data to JSON format.",
   "main": "index.js",
