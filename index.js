@@ -31,10 +31,7 @@ function csvdataconverter(csv) {
 }
 const identity = (data) =>{
 
-    const len = data.length ;
-
     const variable = data.indexOf("<")
-    console.log(variable);
     if(variable==0){
         return xmldataconverter(data)
     }
