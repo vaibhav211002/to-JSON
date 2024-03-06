@@ -21,8 +21,6 @@ function csvdataconverter(csv) {
         // console.log(set);
         return headers.reduce((obj, header, i) => {
 
-
-            console.log(typeof(header));
             // header = JSON.stringify(header);
             obj[header] = set[i]; 
             return obj;
@@ -32,6 +30,10 @@ function csvdataconverter(csv) {
 const identity = (data) =>{
 
     const variable = data.indexOf("<")
+<<<<<<< HEAD
+=======
+    // console.log(variable);
+>>>>>>> cbbcce07b20406863314f5919eaa2c94c07642b2
     if(variable==0){
         return xmldataconverter(data)
     }
